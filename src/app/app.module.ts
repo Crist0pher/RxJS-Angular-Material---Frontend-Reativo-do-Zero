@@ -4,13 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
 
 import { MaterialModule } from './Material/Material.module';
+import { ButtonsIconsComponent } from './buttons-icons/buttons-icons.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [	
+    AppComponent,
+      ButtonsIconsComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
