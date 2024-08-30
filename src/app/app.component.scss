@@ -14,11 +14,14 @@ mat-sidenav-content {
 mat-sidenav-container {
 
 }
-
+.content{
+  padding: 10px;
+}
 .toolbar-menu{
   position:fixed;
   font-size:1re,;
   top:0;
+  z-index: 1001;
 
 }
 .toolbar-submenu{

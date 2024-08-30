@@ -1,0 +1,16 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-form-field-input',
+  templateUrl: './form-field-input.component.html',
+  styleUrls: ['./form-field-input.component.css']
+})
+
+export class FormFieldInputComponent implements OnInit {
+  public value : string = '';
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

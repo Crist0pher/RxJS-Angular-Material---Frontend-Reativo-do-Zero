@@ -1,0 +1,18 @@
+<p>
+  datepiker works!
+</p>
+<mat-form-field>
+  <input matInput 
+  [matDatepicker]="picker"
+  [min]="mindate"
+  [max]="maxdate"
+  >
+
+  <mat-hint>MM/DD/YYYY</mat-hint>
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker 
+  #picker
+  [startAt]="startDate"
+  [touchUi]="IsTouchDevice"
+  ></mat-datepicker>
+</mat-form-field>

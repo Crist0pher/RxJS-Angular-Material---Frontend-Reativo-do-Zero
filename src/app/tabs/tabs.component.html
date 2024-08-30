@@ -1,0 +1,77 @@
+<h1> Simple Tabs</h1>
+<mat-tab-group class="mat-elevation-z4"
+ mat-align-tabs="start" animationDuration="3000">
+
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">settings</mat-icon>
+      Settings
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">person</mat-icon>
+      User
+    </ng-template>
+  </mat-tab>
+</mat-tab-group>
+
+<br>
+<br>
+
+<h1> Tabs - Stretch and Below </h1>
+<mat-tab-group class="mat-elevation-z4"
+mat-stretch-tabs headerPosition="below" animationDuration="3000">
+
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">settings</mat-icon>
+      Settings
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="tabName">
+    <ng-template mat-tab-label>
+      <mat-icon class="tab-icon">person</mat-icon>
+      User
+    </ng-template>
+  </mat-tab>
+</mat-tab-group>
+
+<br>
+<br>
+
+<h1> Tabs - Color </h1>
+<mat-tab-group 
+class="mat-elevation-z4"
+headerPosition="below"
+color="warn" backgroundColor="primary" mat-stretch-tabs headerPosition="below" animationDuration="3000">
+
+  <mat-tab label="tabName">
+    <div class="mat-tab">
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">settings</mat-icon>
+        Settings
+      </ng-template>
+      <h1>Settings</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ab, similique quisquam vitae quasi sapiente
+        animi corporis incidunt! Blanditiis corporis praesentium omnis consectetur ipsa quos eius commodi architecto
+        dolorem minus?
+      </p>
+    </div>
+  </mat-tab>
+  <mat-tab label="tabName">
+    <div class="mat-tab">
+      <ng-template mat-tab-label>
+        <mat-icon class="tab-icon">person</mat-icon>
+        User
+      </ng-template>
+      <h1>Person</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ab, similique quisquam vitae quasi sapiente
+        animi corporis incidunt! Blanditiis corporis praesentium omnis consectetur ipsa quos eius commodi architecto
+        dolorem minus?
+      </p>
+    </div>
+  </mat-tab>
+</mat-tab-group>
