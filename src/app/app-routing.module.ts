@@ -6,6 +6,7 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
 import { TabsComponent } from './tabs/tabs.component';
 import { DatepikerComponent } from './datepiker/datepiker.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
+import { DialogComponent  } from './dialog/dialog.component';
 const routes: Routes = [
   { path: 'buttonIcon', component: ButtonsIconsComponent },
   { path: 'formField', component: FormFieldInputComponent },
@@ -13,7 +14,7 @@ const routes: Routes = [
   { path: 'datepiker', component: DatepikerComponent},
   { path: 'tabs', component: TabsComponent },
   { path: 'snackbar', component: SnackbarComponent },
-
+  { path: 'dialog', component: DialogComponent },
 
 ];
 

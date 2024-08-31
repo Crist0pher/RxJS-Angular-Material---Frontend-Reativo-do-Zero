@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { SnackbarMsnComponent } from './snackbar-msn/snackbar-msn.component';
 
 @Component({
   selector: 'app-snackbar',
@@ -28,10 +29,10 @@ export class SnackbarComponent implements OnInit {
   }
 
 
-  // public openFromComp() {
-  //   this.snackbar.openFromComponent(SanckbarMsnComponent, {
-  //     data: "Hellow world"
+  public openFromComp() {
+    this.snackbar.openFromComponent(SnackbarMsnComponent, {
+      data: "Hellow world"
 
-  //   })
-  // }
+    })
+  }
 }
