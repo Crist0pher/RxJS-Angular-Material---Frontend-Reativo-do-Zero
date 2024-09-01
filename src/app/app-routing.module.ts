@@ -7,6 +7,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { DatepikerComponent } from './datepiker/datepiker.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { DialogComponent  } from './dialog/dialog.component';
+import { DatatableComponent } from './datatable/datatable.component';
 const routes: Routes = [
   { path: 'buttonIcon', component: ButtonsIconsComponent },
   { path: 'formField', component: FormFieldInputComponent },
@@ -15,6 +16,8 @@ const routes: Routes = [
   { path: 'tabs', component: TabsComponent },
   { path: 'snackbar', component: SnackbarComponent },
   { path: 'dialog', component: DialogComponent },
+  { path: 'datatable', component: DatatableComponent },
+
 
 ];
 

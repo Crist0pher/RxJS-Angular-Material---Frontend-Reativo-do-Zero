@@ -20,9 +20,10 @@ import { SnackbarMsnComponent } from './snackbar/snackbar-msn/snackbar-msn.compo
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { DialogModalComponent } from './dialog/dialog-modal/dialog-modal.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 @NgModule({
-  declarations: [								
+  declarations: [										
     AppComponent,
       ButtonsIconsComponent,
       FormFieldInputComponent,
@@ -33,6 +34,7 @@ import { DialogModalComponent } from './dialog/dialog-modal/dialog-modal.compone
       SnackbarMsnComponent,
       DialogComponent,
       DialogModalComponent,
+      DatatableComponent
    ],
   imports: [
     MatTabsModule,
